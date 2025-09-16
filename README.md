@@ -42,9 +42,9 @@ This project uses Rust workspaces to maintain modularity and reusability:
 
 ### Phase 1: Backend Foundation
 - [x] Setup workspace structure
-- [ ] Create basic module skeleton
-- [ ] Implement `niri-ipc` for command execution
-- [ ] Test communication with Niri
+- [x] Create basic module skeleton
+- [x] Implement `niri-ipc` for command execution
+- [x] Test communication with Niri
 
 ### Phase 2: Monitor Configuration
 - [ ] Parse `niri msg outputs` in `niri-monitor`
