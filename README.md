@@ -1,0 +1,1 @@
+# niri-config-gui
