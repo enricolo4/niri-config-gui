@@ -1,0 +1,9 @@
+[package]
+name = "niri-gui"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+niri-monitor = { path = "../niri-monitor"}
+niri-config = { path = "../niri-config" }
+niri-ipc = { path = "../niri-ipc" }
