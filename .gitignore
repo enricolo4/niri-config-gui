@@ -1,1 +1,84 @@
-/target
+# Rust
+/target/
+**/target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build outputs
+/dist/
+/build/
+**/dist/
+**/build/
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.backup
+*.bak
+*~
+
+# Test coverage
+coverage/
+*.profraw
+
+# Generated documentation
+/doc/
+**/doc/
+
+# Local configuration
+config.local.*
+
+# Future Tauri files (quando adicionar GUI)
+src-tauri/target/
+src-tauri/Cargo.lock
+*.app
+*.dmg
+*.msi
+*.deb
+*.rpm
+*.AppImage
+
+# Future frontend files (quando adicionar)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
