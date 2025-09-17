@@ -3,6 +3,14 @@ name = "niri-config-gui"
 version = "0.1.0"
 edition = "2024"
 
-[dependencies]
+[workspace]
+members = ["niri-gui", "niri-monitor", "niri-config", "niri-ipc"]
+
+[workspace.dependencies]
 anyhow = "1.0.99"
 serde = {version = "1.0.225", features = ["derive"]}
+
+# Configurações para testes
+[profile.test]
+opt-level = 1
+debug = true
