@@ -47,9 +47,9 @@ This project uses Rust workspaces to maintain modularity and reusability:
 - [x] Test communication with Niri
 
 ### Phase 2: Monitor Configuration
-- [ ] Parse `niri msg outputs` in `niri-monitor`
-- [ ] Create monitor data structures
-- [ ] Implement monitor positioning logic
+- [x] Parse `niri msg outputs` in `niri-monitor`
+- [x] Create monitor data structures
+- [x] Implement monitor positioning logic
 - [ ] Generate KDL output configuration
 - [ ] Handle edge cases (rotation, scaling, etc.)
 
@@ -160,4 +160,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [YaLTeR](https://github.com/YaLTeR) for creating Niri
 - The Niri community for feedback and testing
-- Tauri team for the excellent framework
+- Tauri team for the excellent framework 
