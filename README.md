@@ -160,4 +160,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - [YaLTeR](https://github.com/YaLTeR) for creating Niri
 - The Niri community for feedback and testing
-- Tauri team for the excellent framework
+- Tauri team for the excellent framework 
